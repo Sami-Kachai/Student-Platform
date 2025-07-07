@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منصة الطالب - المعهد العالي للعلوم الإنسانية بمدنين</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- القائمة الجانبية -->
+      <aside class="sidebar">
+        <div class="logo">
+          <h1>منصة الطالب</h1>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="#library"><i class="icon">📚</i> المكتبة الإلكترونية</a>
+            </li>
+            <li>
+              <a href="#calendar"><i class="icon">📅</i> التقويم التفاعلي</a>
+            </li>
+            <li>
+              <a href="#timer"><i class="icon">⏱️</i> الساعة والكرنومتر</a>
+            </li>
+            <li>
+              <a href="#location"><i class="icon">📍</i> موقعي</a>
+            </li>
+            <li>
+              <a href="#games"><i class="icon">🎮</i> الألعاب الذهنية</a>
+            </li>
+            <li>
+              <a href="#notes"><i class="icon">📝</i> المذكرات</a>
+            </li>
+            <li>
+              <a href="#chat"><i class="icon">💬</i> الدردشة الذكية</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="language-switcher">
+          <select id="language-select">
+            <option value="ar">العربية</option>
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </div>
+      </aside>
+
+      <!-- المحتوى الرئيسي -->
+      <main class="main-content">
+        <div class="language-switcher-mobile">
+          <select id="language-select">
+            <option value="ar">العربية</option>
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </div>
+        <header class="main-header">
+          <h2 id="page-title">الرئيسية</h2>
+          <div class="user-profile">
+            <span>مرحباً، الطالب</span>
+            <img src="assets/images/user-icon.png" alt="صورة المستخدم" />
+          </div>
+        </header>
+
+        <div class="content-sections">
+          <!-- سيتم تحميل الأقسام هنا ديناميكياً -->
+        </div>
+      </main>
+
+      <!-- القسم الأيمن (الأقسام الدراسية) -->
+      <div class="study-sections">
+        <h3>الأقسام الدراسية</h3>
+        <div class="departments">
+          <div class="department" data-dept="arabic">
+            <h4>اللغة العربية</h4>
+          </div>
+          <div class="department" data-dept="french">
+            <h4>اللغة الفرنسية</h4>
+          </div>
+          <div class="department" data-dept="english">
+            <h4>اللغة الإنجليزية</h4>
+          </div>
+          <div class="department" data-dept="german">
+            <h4>اللغة الألمانية</h4>
+          </div>
+          <div class="department" data-dept="education">
+            <h4>التربية والتعليم</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+      <p id="copyright-text">© 2025 آية مصدق</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
