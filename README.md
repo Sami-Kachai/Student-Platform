@@ -28,7 +28,7 @@ A responsive, multilingual student dashboard designed for the **Higher Institute
   Static text field intended for future chatbot integration.
 
 - 🌍 **Language Switching**  
-  Full support for Arabic (RTL), English, French, and German—instantly updates all content.
+  Full support for Arabic (RTL), English, French, and German.
 
 - 📱 **Responsive Design**  
   Mobile-friendly layout with optimized sidebar, top nav, and language dropdown.
