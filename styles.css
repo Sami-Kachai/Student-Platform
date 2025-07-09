@@ -35,12 +35,24 @@ body {
   border-right: 1px solid rgba(100, 255, 218, 0.1);
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
 .logo h1 {
   color: var(--accent-yellow);
   font-size: clamp(1rem, 2vw, 1.5rem);
   word-break: break-word;
-  margin-bottom: 30px;
-  text-align: center;
+  margin: 0;
+  text-align: right;
+}
+.logo img {
+  width: 40px;
+  height: auto;
 }
 
 .main-nav ul {
